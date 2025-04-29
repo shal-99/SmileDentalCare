@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Slim';
+}
+
+html{
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'Nova Slim';
+    src: url(/fonts/NovaSlim-Regular.ttf);
+}
+
+/* Mobile Query */
+
+.backHome img{display: none;}
+
+/* Header- Navigation Bar */
+
+header{
+    width: 100%; height: 10vh; background-color: white; display: flex; flex-direction: row;
+}
+
+/* Kale Dentistry Logo */
+
+.logo{display: flex; flex-direction: row; justify-content: space-around; align-items: center;}
+
+.logo img{width: 20%; height: auto;}
+
+.logo a{text-decoration: none; color:#48BD85; font-size:1.5em;}
+
+/* Hamburger Menu / Navigational Bar */
+
+.navbar{width: 30%; display: flex; justify-content: center; align-items: center;}
+
+.hamburger-icon{display: flex; flex-direction: row; justify-content: center;}
+
+.hamburger-icon img{width: 40%; height: auto;}
+
+.header-nav{display: none;}
+
+.mobile-header-nav{flex-direction: row; justify-content: space-evenly; text-align: center;}
+
+.mobile-header-nav a{width: 100%; text-decoration: none; color: white; background-color: #48BD85; font-size: 150%; padding: 2%;}
+
+/* Header Banner */
+
+.header-banner-wrapper{display: flex; flex-direction: column;}
+
+.welcome{display: none;}
+.opening-hours{display: none;}
+.contact-bar{display: none;}
+
+.header-banner{background-image: url(/images/hair-flipWEB.webp); background-size: cover; background-repeat: no-repeat; background-position: 50%; width: 100%; position: relative; display: flex; justify-content: center;}
+
+.mobile-button{margin-top: 100%; color: white; text-align: center; background-color: #48BD85; padding: 2%; width: 60%; font-size: 200%; border-radius: 50px; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); margin-bottom: 15%; border: none;}
+
+.mobile-contact-bar{width: 100%; background-color: #48BD85; text-align: center; color: white; padding: 3%; list-style: none; line-height: 300%; font-size: 120%;}
+
+/* Opening Hours */
+
+.mobile-opening-hours{width: 100%; display: flex; flex-direction: column;}
+
+.mobile-openinghours-content{display: flex; flex-direction: row; justify-content: space-around; letter-spacing: 5%;}
+
+.mobile-opening-hours h3{text-align: center; padding: 5%; font-size: 150%;}
+
+.mobile-openinghours-content ul{width: 30%; font-size: 120%;}
+
+.hours{text-align: right;}
+
+.mobile-opening-hours li{list-style: none; line-height: 180%;}
+
+.mobile-enquire-button{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 150%; padding: 2%; align-self: center; margin-top: 5%;}
+
+/* Our Story */
+
+.about{display: flex; flex-direction: column; background-color: rgba(105, 196, 114, 0.6); border-radius: 0 200px 200px 0; margin-top: 5%;}
+
+.about img{width: 70%; height: auto; border-radius: 50%; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); margin-top: 5%; align-self: center;}
+
+.about-title{background-color: white; width: 90%; border-radius: 0 50px 50px 0; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-top: 5%; margin-bottom: 5%;}
+
+.about-bio{background-color: white; width: 90%; align-self: center; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); padding: 5%; font-size: 120%; text-align: center; letter-spacing: 5%; line-height: 200%;}
+
+.about-bio button{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 100%; padding: 2%; align-self: center; margin-top: 5%;}
+
+/* Testimonials */
+
+[class^='testimonial-']{text-align: center; display: flex; flex-direction: column; padding: 10%; letter-spacing: 5%; line-height: 200%; font-size: 150%;}
+
+.author{font-style: italic;}
+
+/* Our Services */
+
+.services-wrapper{display: flex; flex-direction: column;}
+
+.services-title{background-color: rgba(105, 196, 114, 0.6); color: black; width: 90%; border-radius: 50px 0 0 50px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-left: 10%; margin-bottom: 5%;}
+
+.services-container{display: grid; grid-template-columns: 1fr 1fr; justify-items: center; font-size: 120%;}
+
+[class^='dental-box-']{width: 90%; list-style: none; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); margin-bottom: 5%;}
+
+.box-image{width: 100%; height: 75%;}
+
+.box-banner img{display: none;}
+.box-banner{display: flex; flex-direction: row; justify-content: center; align-items: center;}
+
+/* Contact Us */
+
+.contact img{display: none;}
+
+.contact{display: flex; flex-direction: column; background-color: rgba(105, 196, 114, 0.6); border-radius: 0 0 0 200px; margin-top: 5%;}
+
+.contact-title{background-color: white; width: 90%; border-radius: 0 50px 50px 0; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-top: 5%; margin-bottom: 5%;}
+
+.contact-form{display: flex; flex-direction: column; justify-content: center; align-items: center; line-height: 200%; background-color: white; width: 90%; align-self: center; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); padding: 5%;}
+
+.names, .form-rest{display: flex; flex-direction: column; width: 90%;}
+
+.contact-form input{padding: 5%; border-bottom: #48BD85 solid 2px; border-top: none; border-left: none; border-right: none; font-size: 120%;}
+
+textarea{padding: 10%; margin-top: 5%; border:#48BD85 2px solid; font-size: 120%;}
+
+.submitButton{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 100%; padding: 2%; align-self: center; margin-top: 5%;}
+
+/* Our Team */
+
+.team{display: flex; flex-direction: column; background-color: rgba(105, 196, 114, 0.6); border-radius: 0 200px 0 0; margin-top: 5%; padding-bottom: 10%;}
+
+.team-title{background-color: white; width: 90%; border-radius: 0 50px 50px 0; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-top: 5%; margin-bottom: 5%;}
+
+.team-wrapper{display: flex; justify-content: center;}
+
+.team-container{display: flex; flex-direction: column; width: 90%; background-color: white; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); list-style: none; padding: 5%;}
+
+[class^='staff0']{background-color: #f1f1f1; width: 100%; position: relative; font-size: 130%; letter-spacing: 10%; line-height: 150%; display: flex; flex-direction: row;}
+
+[class^='staff0'] img{width: 20%; object-fit: cover;}
+
+.staff-bio{padding: 5%;}
+
+.staff-bio span{color: #c33131;}
+
+.staff-bio p{padding-bottom: 5%; padding-top: 5%;}
+
+.staff01, .staff02, .staff03, .staff04, .staff05{margin-bottom: 5%}
+
+/* Footer Class */
+
+.footer{background-color: #393939; margin-top: 5%;}
+
+.footer-content{display: flex; flex-direction: column; padding: 5%; color: white;}
+
+.footer-content a{color: white;}
+
+.cancel-policy, .services-links, .contact-links{list-style: none; padding: 5%; line-height: 200%;}
+
+.mapouter{width: 100%;}
+
+footer{background-color: #393939; text-align: center; color: white; padding: 5%;}
+
+/* Tablet */
+/* (max-width: 1280px) and */
+
+@media only screen and (min-width: 461px){
+    [class^='mobile-']{display: none;}
+
+    /* Header Navbar */
+
+    .hamburger-icon{display: none;}
+
+    .logo{width: 40%;}
+
+    .navbar{width: 60%;}
+
+    .header-nav{display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; width: 100%;}
+
+    .header-nav a{text-decoration: none; color: black; font-size: 150%;}
+
+    /* Header Banner */
+
+    .header-banner{height:500px;}
+
+    .welcome{position: absolute; background-color: rgba(105, 196, 114, 0.6); border-radius: 400px 0 0 400px; right: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; width: 50%; height: 100%; letter-spacing: 1rem;}
+
+    .welcome h1{font-size: 200%; text-align: center; padding: 10%;}
+
+    .welcome button{background-color: white; padding: 5%; border: 0; font-size: 100%; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); height: 50px; border-radius: 50px;}
+
+    /* Opening Hours */
+
+    .opening-hours{background-color: rgba(255, 255, 255, 0.7); position: absolute; left: 0; width: 40%;  display: flex; flex-direction: column; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); align-self: center;}
+
+    .opening-hours h3{align-self: center; padding: 5%;}
+
+    .openinghours-content{display: flex; flex-direction: row; justify-content: space-around;}
+
+    .opening-hours li{list-style: none; line-height: 170%;}
+
+    .enquire-button{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 120%; padding: 2%; align-self: center; margin-top: 5%; margin-bottom: 5%;}
+
+    /* Contact Bar */
+
+    .contact-bar{background-color: #48BD85; display: flex; flex-direction: row; justify-content: center; color: white; align-items: center; text-align: center; padding: 2%; font-size: 120%; line-height: 150%;}
+
+    /* Our Story */
+
+    .about{position: relative; border-radius: 0 0 200px 0;}
+
+    .about img{position: absolute; width: 35%; left: 1%; top: -10%;}
+
+    .about-title{width: 50%; align-self: center;}
+
+    .about-bio{margin-top: 3%;}
+
+    /* Contact */
+
+    .contact{margin-top: 0;}
+
+    /* Our Team */
+
+    .team{margin-top: 0;}
+
+    /* Footer */
+
+    .footer-content{display: grid; grid-template-columns: 1fr 1fr;}
+
+    .services-links{text-align: right;}
+}
+
+/* Desktop */
+@media only screen and (max-width:1920px) and (min-width: 1200px){
+    /* Header Navbar */
+
+    header{justify-content: space-between;}
+
+    .logo{width: 20%; justify-content: space-around;}
+
+    .navbar{width: 30%;}
+
+    .header-nav a:hover{cursor: pointer; background-color: rgba(105, 196, 114, 0.6); border-radius: 50px;}
+
+    /* Header Banner */
+
+    .header-banner{height: 700px;}
+
+    .welcome{font-size: 120%; width: 45%;}
+
+    .welcome button{align-items: center; height: 100px;}
+
+    .welcome button:hover{cursor: pointer; background: linear-gradient(to right, #58e966 50%, white 0%); background-size: 200% 100%; background-position: right; animation: makeItfadeIn 2s forwards;}
+
+    @keyframes makeItfadeIn {
+        100% {
+          background-position: left;
+        }
+      }
+
+    /* Opening Hours */
+
+    .opening-hours{width: 25%; font-size: 120%;}
+
+    .enquire-button:hover{cursor: pointer; background-color: #58e966; font-size: 120%;}
+
+    /* Contact Bar */
+
+    .contact-bar{font-size: 120%; letter-spacing: 5px; padding: 1%;}
+
+    /* Titles */
+
+    [class$='title']{font-size: 350%; letter-spacing: 1rem; text-align: right; padding: 1%; margin-bottom: 2%; margin-top: 2%; width: 60%;}
+
+    /* Testimonials */
+
+    [class^='testimonial-']{padding: 5%;}
+
+    /* Our Story */
+
+    .about{margin-top: 3%; position: relative;}
+
+    .about-title{width: 50%; margin-top: 2%;}
+
+    .about-bio{font-size: 16px; letter-spacing: 0.2rem; margin-top: 0; width: 57%; align-self:flex-end; margin-right: 5%; padding: 2%;}
+
+    .about img{width:30%; max-width: 100%; top: -15%; margin-left: 5%; left: 0;}
+
+    .about button{width: 30%; font-size: 120%; margin-top: 2%;}
+
+    .about button:hover{cursor: pointer; background-color: #58e966;}
+
+    /* Our Services */
+
+    .services-title{text-align: left;}
+
+    .services-wrapper{align-items: flex-end;}
+
+    .services-container{grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+    .box-banner img{transition: transform 2s;}
+
+    [class^="dental-box-"]:hover{
+        cursor: pointer;
+        background: linear-gradient(to right, #69C472 50%, transparent 0%);
+        background-size: 200% 100%;
+        background-position: right;
+        animation: makeItfadeIn 2s forwards;
+    }
+    
+    @keyframes makeItfadeIn {
+        100% {
+          background-position: left;
+        }
+    }
+
+    /* Contact */
+
+    .contact{background-image: url(/images/grinningwoman.webp); background-size: 45% 100%; background-repeat: no-repeat; background-position-x: right;}
+
+    .contact-form input{padding: 2%;}
+
+    .contact-form{width: 60%; align-self:first baseline; margin-left: 10%; padding: 2%; height: 80%;}
+
+    .names{display: flex; flex-direction: row; justify-content: space-between;}
+
+    .names input{width: 45%;}
+
+    textarea{padding: 2%;}
+
+    /* Team */
+
+    .team{padding-bottom: 0;}
+
+    .team-container{display: grid; grid-template-columns: 1fr 1fr; padding: 2%; gap: 2%; padding-bottom: 4%;}
+
+    [class^='staff']{height: 100%; width: 100%;}
+
+    .team-container img{height: 100%;}
+
+    .staff-bio span{font-size: 130%;}
+
+    /* Footer */
+
+    footer{padding: 2%;}
+
+    .footer-content{display: flex; flex-direction: row; padding: 0; text-align: right; font-size: 70%;}
+
+    .services-links, .cancel-policy, .contact-links{padding: 1%; width: 80%;}
+
+    .mapouter{display: flex; justify-content: center; align-items: center;}
+
+    .gmap_canvas{width: 70%;}
+
+}

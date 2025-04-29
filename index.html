@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kale Dentistry</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/coca-leaves.png">
+    <link rel="stylesheet" href="./javascript/hamburger.js">
+</head>
+<body>
+    <header id="home">
+        <div class="logo">
+            <img src="./images/coca-leaves.png" alt="kale dentistry logo coca-leaves" loading="lazy"/>
+            <a href="#">Kale Dentistry</a>
+        </div>
+        <div class="navbar">
+            <nav class="header-nav">
+                <a href="#about">About</a>
+                <a href="#services-wrapper">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="javascript:void(0);" class="hamburger-icon"><img src="./images/hamburger.png"/></a>
+        </div>
+    </header>
+
+    <main>
+        <nav class="mobile-header-nav" style="display:none;">
+            <a href="#about">About</a>
+            <a href="#services-wrapper">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <div class="backHome">
+            <img src="./images/up-arrow.png" onClick="window.location.href='#home'"/>
+        </div>
+
+        <section class="header-banner-wrapper">
+            <div class="header-banner">
+                <button class="mobile-button">BOOK NOW</button>
+
+                <div class="opening-hours">
+                    <h3>Opening Hours</h3>
+                    <div class="openinghours-content">
+                        <ul class="weekdays">
+                            <li>Monday</li>
+                            <li>Tuesday</li>
+                            <li>Wednesday</li>
+                            <li>Thursday</li>
+                            <li>Friday</li>
+                            <li>Saturday</li>
+                            <li>Sunday</li>
+                        </ul>
+                        <ul class="hours">
+                            <li>7am - 7pm</li>
+                            <li>7am - 7pm</li>
+                            <li>7am - 7pm</li>
+                            <li>7am - 7pm</li>
+                            <li>7am - 5pm</li>
+                            <li>9am - 5pm</li>
+                            <li>Closed</li>
+                        </ul>
+                    </div>
+                    <button class="enquire-button" onClick="window.location.href='#contact'">Enquire</button>
+                </div>
+
+                <div class="welcome">
+                    <h2>WELCOME TO</h2>
+                    <h1>KALE DENTISTRY</h1>
+                    <button>BOOK AN APPOINTMENT</button>
+                </div>
+            </div>
+
+            <ul class="mobile-contact-bar">
+                <li>(+64) 9 123 4567</li>
+                <li>kaledentistry@gmail.com</li>
+                <li>Manukau Road, Epsom, Auckland 1023</li>
+            </ul>
+            <div class="contact-bar">
+                <span>(+64) 9 123 4567  |   kaledentistry@gmail.com |   Manukau Road, Epsom, Auckland 1023</span>
+            </div>
+
+            <div class="mobile-opening-hours">
+                <h3>Opening Hours</h3>
+                <div class="mobile-openinghours-content">
+                    <ul class="weekdays">
+                        <li>Monday</li>
+                        <li>Tuesday</li>
+                        <li>Wednesday</li>
+                        <li>Thursday</li>
+                        <li>Friday</li>
+                        <li>Saturday</li>
+                        <li>Sunday</li>
+                    </ul>
+                    <ul class="hours">
+                        <li>7am - 7pm</li>
+                        <li>7am - 7pm</li>
+                        <li>7am - 7pm</li>
+                        <li>7am - 7pm</li>
+                        <li>7am - 5pm</li>
+                        <li>9am - 5pm</li>
+                        <li>Closed</li>
+                    </ul>
+                </div>
+                <button class="mobile-enquire-button" onClick="window.location.href='#contact'">Enquire</button>
+            </div>
+        </section>
+        
+        <section class="about" id="about">
+            <img src="./images/watermelonWEB.webp" alt="woman holding sliced watermelon" loading="lazy"/>
+            <div class="about-title">
+                <h4>Our Story</h4>
+            </div>
+            <div class="about-bio">
+                <p>At Kale Dentistry, we believe in providing more than just dental care. Our team of experienced professionals is dedicated to building strong, lasting relationships with our patients by creating a comfortable and welcoming environment. With the latest techniques and technologies, you can trust that you are in good hands. Choose Kale Dentistry for a brighter smile and a happier life.</p>
+                <button onClick="window.location.href='#team'">Meet The Team</button>
+            </div>
+        </section>
+
+        <div class="testimonial-1">
+            <span>"Kale Dentistry is the best! Friendly staff and great service. Highly Recommend."</span>
+            <span class="author">- Terry Fisher</span>
+        </div>
+
+        <section class="services-wrapper" id="services-wrapper">
+            <div class="services-title">
+                <h4>Our Services</h4>
+            </div>
+            <ul class="services-container">
+                <li class="dental-box-1">
+                    <img class="box-image" src="./images/generaldental-zoomin.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">General Dental</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+                <li class="dental-box-2">
+                    <img class="box-image" src="./images/newhyg.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">Dental Hygienist</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+                <li class="dental-box-3">
+                    <img class="box-image" src="./images/cosmetic.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">Cosmetic</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+                <li class="dental-box-4">
+                    <img class="box-image" src="./images/chair.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">Sedation</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+                <li class="dental-box-5">
+                    <img class="box-image" src="./images/jaw.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">TMJ</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+                <li class="dental-box-6">
+                    <img class="box-image" src="./images/implants.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">Dental Implants</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+                <li class="dental-box-7">
+                    <img class="box-image" src="./images/whitening.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">Teeth Whitening</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+                <li class="dental-box-8">
+                    <img class="box-image" src="./images/invis.webp" loading="lazy"/>
+                    <div class="box-banner">
+                        <span class="box-span">Braces</span>
+                        <img src="./images/right.png" loading="lazy"/>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <div class="testimonial-2">
+            <span>"The dentists are knowledgeable and the facilities are modern and clean."</span>
+            <span class="author">- Joel McKann</span>
+        </div>
+        
+        <section class="contact" id="contact">
+            <img src="./images/grinningwoman.webp" alt="grinning woman" loading="lazy"/>
+            <div class="contact-title">
+                <h4>Contact Us</h4>
+            </div>
+            <form class="contact-form">
+                <div class="names">
+                    <input type="text" class="firstname" placeholder="*First Name">
+                    <input type="text" class="surname" placeholder="*Last Name">
+                </div>
+                <div class="form-rest">
+                    <input type="text" class="phone" placeholder="*Phone Number">
+                    <input type="text" class="email" placeholder="*Email Address">
+                    <textarea placeholder="*Enter your message"></textarea>
+                </div>
+                <button class="submitButton">Send</button>
+            </form>
+        </section>
+
+        <div class="testimonial-3">
+            <span>"I was a nervous wreck before my appointment at Kale Dentistry, but the staff put me at ease and took great care of me."</span>
+            <span class="author">- Barbara Swindleton</span>
+        </div>
+
+        <section class="team" id="team">
+            <div class="team-title">
+                <h4>Our Team</h4>
+            </div>
+            <div class="team-wrapper">
+                <ul class="team-container">
+                    <li class="staff01">
+                        <img src="./images/staff1.webp" loading="lazy"/>
+                        <div class="staff-bio">
+                            <span>Dr. Alana Grey</span>
+                            <p>Dr. Grey is the owner and lead dentist at Kale Dentistry. With 22 years of experience, she provides top-notch dental care and prioritizes patient comfort. She stays up to date with the latest advancements in the field.</p>
+                        </div>
+                    </li>
+                    <li class="staff02">
+                        <img src="./images/staff5.webp" loading="lazy"/>
+                        <div class="staff-bio">
+                            <span>Dr. Mitchell Harris</span>
+                            <p>Dr. Harris is a highly skilled dentist with 12 years of experience. He prioritizes patient comfort and offers personalized treatment plans with a focus on preventive care. He stays current with the latest dental advancements to provide effective and efficient care.</p>
+                        </div>
+                    </li>
+                    <li class="staff03">
+                        <img src="./images/staff3.webp" loading="lazy"/>
+                        <div class="staff-bio">
+                            <span>Megan Smith</span>
+                            <p>As an assistant dentist, Megan brings 5 years of experience to the dental chair. She is known for her gentle touch and commitment to patient comfort. With a focus on delivering effective and efficient care.</p>
+                        </div>
+                    </li>
+                    <li class="staff04">
+                        <img src="./images/staff4.webp" loading="lazy"/>
+                        <div class="staff-bio">
+                            <span>Tina Nguyen</span>
+                            <p>Tina Nguyen is a motivated professional with experience in dentistry. With a focus on TMJ correction, she strives for excellence in her work. Tina is dedicated to her goals and constantly seeks new challenges.</p>
+                        </div>
+                    </li>
+                    <li class="staff05">
+                        <img src="./images/newstaff.webp" loading="lazy"/>
+                        <div class="staff-bio">
+                            <span>Wesley Spencer</span>
+                            <p>Wes is a friendly and professional receptionist with 4 years of experience in customer service. He is dedicated to providing a warm and welcoming experience for all visitors and clients.</p>
+                        </div>
+                    </li>
+                    <li class="staff06">
+                        <img src="./images/staff6.webp" loading="lazy"/>
+                        <div class="staff-bio">
+                            <span>Kayla Pearson</span>
+                            <p>Kayla, RDH, is a licensed dental hygienist with 3 years of experience in the field. With a passion for preventive care, Kayla is dedicated to helping her patients achieve and maintain optimal oral health.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer-content">
+                <ul class="cancel-policy">
+                    <li>Cancellation Policy</li>
+                    <li>If you need to change an appointment, please call our office 24 hours prior or if emailing, please give us at least 48 hours notice as emails are not monitored 24/7, and not at all over weekends.</li>
+                    <li>Fees maybe charged for late cancellations and also failed appointments.</li>
+                </ul>
+                <ul class="services-links">
+                    <li class="dental-services-titleN">Our Dental Services:</li>
+                    <li><a href="#">General Dental</a></li>
+                    <li><a href="#">Cosmetic Dental</a></li>
+                    <li><a href="#">Dental Hygienist</a></li>
+                    <li><a href="#">Sedation Dental</a></li>
+                    <li><a href="#">Braces and Teeth Correction</a></li>
+                    <li><a href="#">Teeth Whitening</a></li>
+                    <li><a href="#">TMJ and Jaw Conditions</a></li>
+                    <li><a href="#">Dental Implants</a></li>
+                </ul>
+                <ul class="contact-links">
+                    <li>Contact Us:</li>
+                    <li>kaledentistry@gmail.co.nz</li>
+                    <li>(+64) 9 123 4567</li>
+                    <li>325 Manukau Road, Epsom, Auckland 1023, New Zealand</li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=325%20Manukau%20Road,%20Epsom,%20Auckland%201023&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">© Kale Dentistry 2023</div>
+    </footer>
+    <script src="./javascript/hamburger.js"></script>
+</body>
+</html>
