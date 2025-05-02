@@ -306,7 +306,7 @@ footer{background-color: #66aae9; text-align: center; color: white; padding: 5%;
 
     [class^="dental-box-"]:hover{
         cursor: pointer;
-        background: linear-gradient(to right, #69C472 50%, transparent 0%);
+        background: linear-gradient(to right, #66aae9 50%, transparent 0%);
         background-size: 200% 100%;
         background-position: right;
         animation: makeItfadeIn 2s forwards;
