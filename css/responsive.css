@@ -32,7 +32,7 @@ header{
 
 .logo img{width: 20%; height: auto;}
 
-.logo a{text-decoration: none; color:#48BD85; font-size:1.5em;}
+.logo a{text-decoration: none; color:#66aae9; font-size:1.5em;}
 
 /* Hamburger Menu / Navigational Bar */
 
@@ -58,9 +58,9 @@ header{
 
 .header-banner{background-image: url(/images/hair-flipWEB.webp); background-size: cover; background-repeat: no-repeat; background-position: 50%; width: 100%; position: relative; display: flex; justify-content: center;}
 
-.mobile-button{margin-top: 100%; color: white; text-align: center; background-color: #48BD85; padding: 2%; width: 60%; font-size: 200%; border-radius: 50px; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); margin-bottom: 15%; border: none;}
+.mobile-button{margin-top: 100%; color: white; text-align: center; background-color: #66aae9; padding: 2%; width: 60%; font-size: 200%; border-radius: 50px; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); margin-bottom: 15%; border: none;}
 
-.mobile-contact-bar{width: 100%; background-color: #48BD85; text-align: center; color: white; padding: 3%; list-style: none; line-height: 300%; font-size: 120%;}
+.mobile-contact-bar{width: 100%; background-color: #66aae9; text-align: center; color: white; padding: 3%; list-style: none; line-height: 300%; font-size: 120%;}
 
 /* Opening Hours */
 
@@ -76,11 +76,11 @@ header{
 
 .mobile-opening-hours li{list-style: none; line-height: 180%;}
 
-.mobile-enquire-button{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 150%; padding: 2%; align-self: center; margin-top: 5%;}
+.mobile-enquire-button{width: 50%; background-color: #66aae9; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 150%; padding: 2%; align-self: center; margin-top: 5%;}
 
 /* Our Story */
 
-.about{display: flex; flex-direction: column; background-color: rgba(105, 196, 114, 0.6); border-radius: 0 200px 200px 0; margin-top: 5%;}
+.about{display: flex; flex-direction: column; background-color: #66aae9; border-radius: 0 200px 200px 0; margin-top: 5%;}
 
 .about img{width: 70%; height: auto; border-radius: 50%; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); margin-top: 5%; align-self: center;}
 
@@ -88,7 +88,7 @@ header{
 
 .about-bio{background-color: white; width: 90%; align-self: center; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); padding: 5%; font-size: 120%; text-align: center; letter-spacing: 5%; line-height: 200%;}
 
-.about-bio button{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 100%; padding: 2%; align-self: center; margin-top: 5%;}
+.about-bio button{width: 50%; background-color: #66aae9; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 100%; padding: 2%; align-self: center; margin-top: 5%;}
 
 /* Testimonials */
 
@@ -100,7 +100,7 @@ header{
 
 .services-wrapper{display: flex; flex-direction: column;}
 
-.services-title{background-color: rgba(105, 196, 114, 0.6); color: black; width: 90%; border-radius: 50px 0 0 50px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-left: 10%; margin-bottom: 5%;}
+.services-title{background-color: #66aae9; color: black; width: 90%; border-radius: 50px 0 0 50px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-left: 10%; margin-bottom: 5%;}
 
 .services-container{display: grid; grid-template-columns: 1fr 1fr; justify-items: center; font-size: 120%;}
 
@@ -115,7 +115,7 @@ header{
 
 .contact img{display: none;}
 
-.contact{display: flex; flex-direction: column; background-color: rgba(105, 196, 114, 0.6); border-radius: 0 0 0 200px; margin-top: 5%;}
+.contact{display: flex; flex-direction: column; background-color: #66aae9; border-radius: 0 0 0 200px; margin-top: 5%;}
 
 .contact-title{background-color: white; width: 90%; border-radius: 0 50px 50px 0; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-top: 5%; margin-bottom: 5%;}
 
@@ -123,15 +123,15 @@ header{
 
 .names, .form-rest{display: flex; flex-direction: column; width: 90%;}
 
-.contact-form input{padding: 5%; border-bottom: #48BD85 solid 2px; border-top: none; border-left: none; border-right: none; font-size: 120%;}
+.contact-form input{padding: 5%; border-bottom: #66aae9 solid 2px; border-top: none; border-left: none; border-right: none; font-size: 120%;}
 
-textarea{padding: 10%; margin-top: 5%; border:#48BD85 2px solid; font-size: 120%;}
+textarea{padding: 10%; margin-top: 5%; border: #66aae9 2px solid; font-size: 120%;}
 
-.submitButton{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 100%; padding: 2%; align-self: center; margin-top: 5%;}
+.submitButton{width: 50%; background-color: #66aae9; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 100%; padding: 2%; align-self: center; margin-top: 5%;}
 
 /* Our Team */
 
-.team{display: flex; flex-direction: column; background-color: rgba(105, 196, 114, 0.6); border-radius: 0 200px 0 0; margin-top: 5%; padding-bottom: 10%;}
+.team{display: flex; flex-direction: column; background-color: #66aae9; border-radius: 0 200px 0 0; margin-top: 5%; padding-bottom: 10%;}
 
 .team-title{background-color: white; width: 90%; border-radius: 0 50px 50px 0; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25); text-align: center; padding: 3%; font-size: 200%; margin-top: 5%; margin-bottom: 5%;}
 
@@ -187,7 +187,7 @@ footer{background-color: #393939; text-align: center; color: white; padding: 5%;
 
     .header-banner{height:500px;}
 
-    .welcome{position: absolute; background-color: rgba(105, 196, 114, 0.6); border-radius: 400px 0 0 400px; right: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; width: 50%; height: 100%; letter-spacing: 1rem;}
+    .welcome{position: absolute; background-color: #66aae9; border-radius: 400px 0 0 400px; right: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; width: 50%; height: 100%; letter-spacing: 1rem;}
 
     .welcome h1{font-size: 200%; text-align: center; padding: 10%;}
 
@@ -203,11 +203,11 @@ footer{background-color: #393939; text-align: center; color: white; padding: 5%;
 
     .opening-hours li{list-style: none; line-height: 170%;}
 
-    .enquire-button{width: 50%; background-color: #48BD85; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 120%; padding: 2%; align-self: center; margin-top: 5%; margin-bottom: 5%;}
+    .enquire-button{width: 50%; background-color: #66aae9; color: white; border: none; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25); font-size: 120%; padding: 2%; align-self: center; margin-top: 5%; margin-bottom: 5%;}
 
     /* Contact Bar */
 
-    .contact-bar{background-color: #48BD85; display: flex; flex-direction: row; justify-content: center; color: white; align-items: center; text-align: center; padding: 2%; font-size: 120%; line-height: 150%;}
+    .contact-bar{background-color: #66aae9; display: flex; flex-direction: row; justify-content: center; color: white; align-items: center; text-align: center; padding: 2%; font-size: 120%; line-height: 150%;}
 
     /* Our Story */
 
@@ -254,7 +254,7 @@ footer{background-color: #393939; text-align: center; color: white; padding: 5%;
 
     .welcome button{align-items: center; height: 100px;}
 
-    .welcome button:hover{cursor: pointer; background: linear-gradient(to right, #58e966 50%, white 0%); background-size: 200% 100%; background-position: right; animation: makeItfadeIn 2s forwards;}
+    .welcome button:hover{cursor: pointer; background: linear-gradient(to right, #66aae9 50%, white 0%); background-size: 200% 100%; background-position: right; animation: makeItfadeIn 2s forwards;}
 
     @keyframes makeItfadeIn {
         100% {
@@ -266,7 +266,7 @@ footer{background-color: #393939; text-align: center; color: white; padding: 5%;
 
     .opening-hours{width: 25%; font-size: 120%;}
 
-    .enquire-button:hover{cursor: pointer; background-color: #58e966; font-size: 120%;}
+    .enquire-button:hover{cursor: pointer; background-color: #66aae9; font-size: 120%;}
 
     /* Contact Bar */
 
@@ -292,7 +292,7 @@ footer{background-color: #393939; text-align: center; color: white; padding: 5%;
 
     .about button{width: 30%; font-size: 120%; margin-top: 2%;}
 
-    .about button:hover{cursor: pointer; background-color: #58e966;}
+    .about button:hover{cursor: pointer; background-color: #66aae9;}
 
     /* Our Services */
 
